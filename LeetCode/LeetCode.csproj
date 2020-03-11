@@ -6,7 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interview\" />
+    <Compile Remove="Interview\**" />
+    <EmbeddedResource Remove="Interview\**" />
+    <None Remove="Interview\**" />
   </ItemGroup>
 
 </Project>
