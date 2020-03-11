@@ -1,0 +1,9 @@
+*.csproj.user
+**/bin
+**/obj
+**/debug
+**/release
+**.vs
+packages
+/*.user
+**.ruleset
