@@ -1,7 +1,7 @@
 # 剑指Offer系列
 
 题目来源
-- [Leetcode](https://leetcode-cn.com/problemset/lcof/)
+- [LeetCode](https://leetcode-cn.com/problemset/lcof/)
 
 目录
 - [3. 数组中重复的数字](LCOF3.cs)
