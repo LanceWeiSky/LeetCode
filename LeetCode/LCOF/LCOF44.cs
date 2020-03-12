@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF44 : IQuestion
     {
@@ -16,7 +16,7 @@ namespace Leetcode.Interview.LCOF
         //请写一个函数，求任意第n位对应的数字。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof
+        //链接：https://LeetCode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         //思路解析：

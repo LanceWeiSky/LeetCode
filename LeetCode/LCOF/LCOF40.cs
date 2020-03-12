@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF40 : IQuestion
     {

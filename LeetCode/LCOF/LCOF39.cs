@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF39 : IQuestion
     {

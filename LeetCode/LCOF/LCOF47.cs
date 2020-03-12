@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF47 : IQuestion
     {
@@ -16,7 +16,7 @@ namespace Leetcode.Interview.LCOF
         //给定一个棋盘及其上面的礼物的价值，请计算你最多能拿到多少价值的礼物？
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof
+        //链接：https://LeetCode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         //思路解析：

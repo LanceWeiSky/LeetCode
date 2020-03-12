@@ -11,4 +11,11 @@
     <None Remove="Interview\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="0000\20\" />
+    <Folder Include="0000\40\" />
+    <Folder Include="0000\60\" />
+    <Folder Include="0000\80\" />
+  </ItemGroup>
+
 </Project>

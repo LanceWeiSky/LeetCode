@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF35 : IQuestion
     {
@@ -30,7 +30,7 @@ namespace Leetcode.Interview.LCOF
         //在复杂链表中，每个节点除了有一个 next 指针指向下一个节点，还有一个 random 指针指向链表中的任意节点或者 null。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof
+        //链接：https://LeetCode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         public class Solution

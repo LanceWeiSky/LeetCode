@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF57_2 : IQuestion
     {
@@ -16,7 +16,7 @@ namespace Leetcode.Interview.LCOF
         //序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof
+        //链接：https://LeetCode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         //思路解析：

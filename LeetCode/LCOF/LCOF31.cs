@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF31 : IQuestion
     {
@@ -16,7 +16,7 @@ namespace Leetcode.Interview.LCOF
         //是该压栈序列对应的一个弹出序列，但 {4,3,5,1,2} 就不可能是该压栈序列的弹出序列。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof
+        //链接：https://LeetCode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         //思路解析：

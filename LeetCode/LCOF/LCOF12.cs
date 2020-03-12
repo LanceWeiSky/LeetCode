@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF12 : IQuestion
     {
@@ -24,7 +24,7 @@ namespace Leetcode.Interview.LCOF
         //但矩阵中不包含字符串“abfb”的路径，因为字符串的第一个字符b占据了矩阵中的第一行第二个格子之后，路径不能再次进入这个格子。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof
+        //链接：https://LeetCode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 

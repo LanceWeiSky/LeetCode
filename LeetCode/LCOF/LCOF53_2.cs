@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF53_2 : IQuestion
     {
@@ -15,7 +15,7 @@ namespace Leetcode.Interview.LCOF
         //在范围0～n-1内的n个数字中有且只有一个数字不在该数组中，请找出这个数字。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof
+        //链接：https://LeetCode-cn.com/problems/que-shi-de-shu-zi-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         public int MissingNumber(int[] nums)

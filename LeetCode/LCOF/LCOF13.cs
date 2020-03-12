@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF13 : IQuestion
     {
@@ -17,7 +17,7 @@ namespace Leetcode.Interview.LCOF
         //例如，当k为18时，机器人能够进入方格[35, 37] ，因为3+5+3+7=18。但它不能进入方格[35, 38]，因为3+5+3+8=19。请问该机器人能够到达多少个格子？
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof
+        //链接：https://LeetCode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
 

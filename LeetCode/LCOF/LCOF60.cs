@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode.Interview.LCOF
+namespace LeetCode.Interview.LCOF
 {
     class LCOF60 : IQuestion
     {
@@ -16,7 +16,7 @@ namespace Leetcode.Interview.LCOF
         //你需要用一个浮点数数组返回答案，其中第 i 个元素代表这 n 个骰子所能掷出的点数集合中第 i 小的那个的概率。
 
         //来源：力扣（LeetCode）
-        //链接：https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof
+        //链接：https://LeetCode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof
         //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
         //思路解析：

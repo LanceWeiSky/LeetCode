@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Leetcode
+namespace LeetCode
 {
     public class Heap<T> where T : IComparable
     {
