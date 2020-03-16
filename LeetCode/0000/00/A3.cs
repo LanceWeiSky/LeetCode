@@ -23,7 +23,7 @@ namespace LeetCode._0000._00
             while (i < s.Length)
             {
                 char c = s[i];
-                if (chars.TryGetValue(c, out index) && index >= leftIndex)
+                if (chars.TryGetValue(c, out index) && index >= leftIndex)//利用字符缓存，不必每次重新查找，重复时只要将索引设置为上次重复字符的下一个字符即可
                 {
                     var tempMax = i - leftIndex;
                     if (tempMax > max)
