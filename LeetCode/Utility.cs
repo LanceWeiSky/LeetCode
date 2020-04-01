@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
 
 namespace LeetCode
 {
@@ -122,6 +123,19 @@ namespace LeetCode
                 return new Node() { val = val };
             }
             return null;
+        }
+
+        public static ListNode ConvertToListNode(string str)
+        {
+            var nums = JsonSerializer.Deserialize<int[]>(str);
+            ListNode dummy = new ListNode(0);
+            var temp = dummy;
+            foreach(var num in nums)
+            {
+                temp.next = new ListNode(num);
+                temp = temp.next;
+            }
+            return dummy.next;
         }
 
     }

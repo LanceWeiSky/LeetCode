@@ -9,13 +9,14 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            string questionId = "A5";
+            string questionId = "A68";
             var types = Assembly.GetExecutingAssembly().GetTypes();
             var type = types.FirstOrDefault(t => t.Name.Equals($"{questionId}", StringComparison.OrdinalIgnoreCase));
             IQuestion question = Activator.CreateInstance(type) as IQuestion;
             question.Run();
         }
     }
+
 
 
 }
