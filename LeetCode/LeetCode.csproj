@@ -12,7 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="0000\80\" />
+    <Folder Include="0100\" />
+    <Folder Include="0200\00\" />
+    <Folder Include="0200\20\" />
+    <Folder Include="0200\40\" />
+    <Folder Include="0200\60\" />
   </ItemGroup>
 
 </Project>

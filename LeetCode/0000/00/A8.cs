@@ -29,6 +29,80 @@ namespace LeetCode._0000._00
 
         public int MyAtoi(string str)
         {
+            //cols: space,+-,0~9,other
+            int[][] stateTable = new int[][] {
+                new int[]{ 1, 2, 3, -1 },//start
+                new int[]{ 1, 2, 3, -1 },//space
+                new int[]{ -1, -1, 3, -1 },//+-
+                new int[]{ 4, 4, 3, 4 },//0~9
+                new int[]{ 4, 4, 4, 4 },//final
+            };
+            int state = 0;
+            long num = 0;
+            bool sign = false;
+            foreach (var c in str)
+            {
+                state = stateTable[state][GetCol(c)];
+                if (state == -1)
+                {
+                    return 0;
+                }
+                else if (state == 2)
+                {
+                    sign = c == '-';
+                }
+                else if (state == 3)
+                {
+                    num = num * 10 + (sign ? '0' - c : c - '0');
+                    if (num >= int.MaxValue)
+                    {
+                        return int.MaxValue;
+                    }
+                    else if (num <= int.MinValue)
+                    {
+                        return int.MinValue;
+                    }
+                }
+                else if (state == 4)
+                {
+                    break;
+                }
+            }
+            state = stateTable[state][0];
+            if (state == 4)
+            {
+                return (int)num;
+            }
+            return 0;
+        }
+
+        private int GetCol(char c)
+        {
+            switch (c)
+            {
+                case ' ':
+                    return 0;
+                case '+':
+                case '-':
+                    return 1;
+                case '0':
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                    return 2;
+                default:
+                    return 3;
+            }
+        }
+
+        public int MyAtoi_2(string str)
+        {
             bool isNegative = false;
             bool isNumStart = false;
             int num = 0;
