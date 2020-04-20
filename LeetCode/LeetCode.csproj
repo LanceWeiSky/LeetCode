@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="0200\00\" />
-    <Folder Include="0200\20\" />
-    <Folder Include="0200\40\" />
-    <Folder Include="0200\60\" />
     <Folder Include="0300\20\" />
     <Folder Include="0300\60\" />
     <Folder Include="0300\80\" />
@@ -23,6 +19,10 @@
     <Folder Include="0400\00\" />
     <Folder Include="0400\20\" />
     <Folder Include="0400\80\" />
+    <Folder Include="0500\00\" />
+    <Folder Include="0500\20\" />
+    <Folder Include="0500\60\" />
+    <Folder Include="0500\80\" />
     <Folder Include="0800\00\" />
     <Folder Include="0800\20\" />
     <Folder Include="0800\40\" />
