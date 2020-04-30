@@ -12,21 +12,59 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="0300\20\" />
-    <Folder Include="0300\60\" />
-    <Folder Include="0300\80\" />
-    <Folder Include="0300\00\" />
-    <Folder Include="0400\00\" />
     <Folder Include="0400\20\" />
     <Folder Include="0400\80\" />
     <Folder Include="0500\00\" />
     <Folder Include="0500\20\" />
     <Folder Include="0500\60\" />
     <Folder Include="0500\80\" />
+    <Folder Include="1300\00\" />
+    <Folder Include="1300\20\" />
+    <Folder Include="1300\40\" />
+    <Folder Include="1300\60\" />
+    <Folder Include="1300\80\" />
+    <Folder Include="1400\00\" />
+    <Folder Include="1400\20\" />
+    <Folder Include="1400\40\" />
+    <Folder Include="1400\60\" />
+    <Folder Include="1400\80\" />
+    <Folder Include="1500\00\" />
+    <Folder Include="1500\20\" />
+    <Folder Include="1500\40\" />
+    <Folder Include="1500\60\" />
+    <Folder Include="1500\80\" />
+    <Folder Include="0900\00\" />
+    <Folder Include="0900\20\" />
+    <Folder Include="0900\40\" />
+    <Folder Include="0900\60\" />
+    <Folder Include="0900\80\" />
     <Folder Include="0800\00\" />
     <Folder Include="0800\20\" />
     <Folder Include="0800\40\" />
     <Folder Include="0800\60\" />
+    <Folder Include="0700\00\" />
+    <Folder Include="0700\20\" />
+    <Folder Include="0700\40\" />
+    <Folder Include="0700\60\" />
+    <Folder Include="0700\80\" />
+    <Folder Include="0600\00\" />
+    <Folder Include="0600\20\" />
+    <Folder Include="0600\40\" />
+    <Folder Include="0600\60\" />
+    <Folder Include="0600\80\" />
+    <Folder Include="1000\00\" />
+    <Folder Include="1000\20\" />
+    <Folder Include="1000\40\" />
+    <Folder Include="1000\60\" />
+    <Folder Include="1100\00\" />
+    <Folder Include="1100\20\" />
+    <Folder Include="1100\40\" />
+    <Folder Include="1100\60\" />
+    <Folder Include="1100\80\" />
+    <Folder Include="1200\00\" />
+    <Folder Include="1200\20\" />
+    <Folder Include="1200\60\" />
+    <Folder Include="1200\80\" />
   </ItemGroup>
 
 </Project>
