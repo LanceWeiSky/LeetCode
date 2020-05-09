@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
+using System.Numerics;
 using System.Reflection;
 using System.Text;
 using System.Text.Json;
@@ -14,7 +15,7 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            string questionId = "A340";
+            string questionId = "A972";
             var types = Assembly.GetExecutingAssembly().GetTypes();
             var type = types.FirstOrDefault(t => t.Name.Equals($"{questionId}", StringComparison.OrdinalIgnoreCase));
             IQuestion question = Activator.CreateInstance(type) as IQuestion;
