@@ -13,8 +13,6 @@
 
   <ItemGroup>
     <Folder Include="1300\00\" />
-    <Folder Include="1300\20\" />
-    <Folder Include="1300\60\" />
     <Folder Include="1300\80\" />
     <Folder Include="1400\00\" />
     <Folder Include="1400\40\" />
@@ -25,7 +23,6 @@
     <Folder Include="1500\40\" />
     <Folder Include="1500\60\" />
     <Folder Include="1500\80\" />
-    <Folder Include="0900\00\" />
     <Folder Include="0900\20\" />
     <Folder Include="0900\40\" />
     <Folder Include="0800\00\" />
@@ -33,9 +30,6 @@
     <Folder Include="0800\40\" />
     <Folder Include="0800\60\" />
     <Folder Include="0700\40\" />
-    <Folder Include="0700\60\" />
-    <Folder Include="0700\80\" />
-    <Folder Include="0600\60\" />
     <Folder Include="1000\00\" />
     <Folder Include="1000\20\" />
     <Folder Include="1000\40\" />

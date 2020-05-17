@@ -30,8 +30,9 @@ namespace LeetCode
             int updated = x;
             while (updated != _set[updated])
             {
-                updated = _set[updated];
+                var temp = _set[updated];
                 _set[updated] = root;
+                updated = temp;
             }
             return root;
         }
