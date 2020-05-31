@@ -23,17 +23,11 @@
     <Folder Include="1500\40\" />
     <Folder Include="1500\60\" />
     <Folder Include="1500\80\" />
-    <Folder Include="0900\20\" />
     <Folder Include="0800\00\" />
-    <Folder Include="0800\20\" />
     <Folder Include="0800\40\" />
     <Folder Include="0800\60\" />
     <Folder Include="0700\40\" />
-    <Folder Include="1000\00\" />
-    <Folder Include="1000\20\" />
-    <Folder Include="1000\40\" />
     <Folder Include="1000\60\" />
-    <Folder Include="1100\00\" />
     <Folder Include="1100\20\" />
     <Folder Include="1100\80\" />
     <Folder Include="1200\00\" />

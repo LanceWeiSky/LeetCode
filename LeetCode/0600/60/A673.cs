@@ -21,6 +21,125 @@ namespace LeetCode._0600._60
                 {
                     return 0;
                 }
+                int min = int.MaxValue;
+                int max = int.MinValue;
+                foreach (var n in nums)
+                {
+                    min = Math.Min(min, n);
+                    max = Math.Max(max, n);
+                }
+                var root = new Node(min, max);
+                foreach (var n in nums)
+                {
+                    var v = root.Query(n - 1);
+                    root.Insert(n, new Value { Length = v.Length + 1, Count = v.Count });
+                }
+                return root.Value.Count;
+            }
+
+            private class Node
+            {
+                private Node _left;
+                private Node _right;
+
+                public int Min { get; }
+                public int Max { get; }
+                public int Mid { get; }
+                public Value Value { get; private set; }
+
+                internal Node(int min, int max)
+                {
+                    Min = min;
+                    Max = max;
+                    Mid = min + (max - min) / 2;
+                    Value = new Value { Length = 0, Count = 1 };
+                }
+
+                public Value Query(int key)
+                {
+                    if (Max <= key)
+                    {
+                        return Value;
+                    }
+                    else if (Min > key)
+                    {
+                        return new Value { Count = 1 };
+                    }
+                    else
+                    {
+                        return Merge(GetLeft().Query(key), GetRight().Query(key));
+                    }
+                }
+
+                public void Insert(int key, Value v)
+                { 
+                    if(Min == Max)
+                    {
+                        Value = Merge(Value, v);
+                        return;
+                    }
+                    if (key <= Mid)
+                    {
+                        GetLeft().Insert(key, v);
+                    }
+                    else
+                    {
+                        GetRight().Insert(key, v);
+                    }
+                    Value = Merge(GetLeft().Value, GetRight().Value);
+                }
+
+                private Value Merge(Value v1, Value v2)
+                {
+                    if(v1.Length > v2.Length)
+                    {
+                        return v1;
+                    }
+                    else if(v1.Length < v2.Length)
+                    {
+                        return v2;
+                    }
+                    if(v1.Length == 0)
+                    {
+                        return new Value { Length = 0, Count = 1 };
+                    }
+                    return new Value { Length = v2.Length, Count = v1.Count + v2.Count };
+                }
+
+                public Node GetLeft()
+                {
+                    if (_left == null)
+                    {
+                        _left = new Node(Min, Mid);
+                    }
+                    return _left;
+                }
+
+                public Node GetRight()
+                { 
+                    if(_right == null)
+                    {
+                        _right = new Node(Mid + 1, Max);
+                    }
+                    return _right;
+                }
+            }
+
+            private class Value
+            { 
+                public int Length { get; set; }
+                public int Count { get; set; }
+            }
+        }
+
+        public class Solution_1
+        {
+            public int FindNumberOfLIS(int[] nums)
+            {
+                if (nums.Length == 0)
+                {
+                    return 0;
+                }
                 int index = 0;
                 NumberList[] dp = new NumberList[nums.Length];
                 dp[0] = new NumberList();
